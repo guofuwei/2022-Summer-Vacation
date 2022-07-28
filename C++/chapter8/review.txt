@@ -1,0 +1,26 @@
+3.
+void iquote(double x);
+void iquote(int x);
+void iquote(string x);
+
+6.
+a.double mass(double dentsity,double volume=1.0);
+b.void repeat(int n,string str);
+void repeat(string str);
+
+c.template <typename T>
+T average(T t1,T t2)
+{
+    return (t1+t2)/2;
+}
+
+d.
+//template <typename T>
+//auto mangle(T t1)->decltype(T)
+//{
+//    return t1;
+//}
+//
+8.
+template<> void Max<box>(const box &box1,const box &box2);
+
