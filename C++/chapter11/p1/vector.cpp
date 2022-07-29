@@ -19,8 +19,8 @@ namespace VECTOR
     mode_=mode;
     if(mode==RECT)
     {
-      x_=n1;
-      y_=n2;
+						x_=n1;
+						y_=n2;
       set_ang();
       set_mag();
     }

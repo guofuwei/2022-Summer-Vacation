@@ -2,6 +2,7 @@
 #include <iostream>
 #include <ostream>
 
+
 complex::complex()
 {
   i_=j_=0;
