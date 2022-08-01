@@ -121,7 +121,7 @@ void BrassPlus::ViewAcct() const
   cout<<"Maximum loan: $"<<max_loan_<<endl;
   cout<<"Owe to bank: $"<<owes_bank_<<endl;
   cout.precision(3);
-  cout<<"Loan Rate:"<<100*rate_<<endl;
+  cout<<"Loan Rate:"<<100*rate_<<"%"<<endl;
   ResetFormat(init_format, init_pre);
 }
 
