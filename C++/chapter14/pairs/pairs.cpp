@@ -20,11 +20,10 @@ int main()
     cout << ratings[i].second() << ":\t"
          << ratings[i].first() << endl;
   }
-  cout<<"Oops!Revised rating:\n";
+  cout << "Oops!Revised rating:\n";
   ratings[3].first() = "Bertie's Fab Eats";
   ratings[3].second() = 6;
   cout << ratings[3].second() << ":\t "
-    << ratings[3].first() << endl;
+       << ratings[3].first() << endl;
   return 0;
-
 }
