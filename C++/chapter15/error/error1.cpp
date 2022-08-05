@@ -17,6 +17,7 @@ int main()
     std::cout << "Enter two numbers<q to quit>:";
   }
 }
+
 double hmean(double x, double y)
 {
   if (x == -y) {
@@ -25,5 +26,3 @@ double hmean(double x, double y)
   }
   return 2 * x * y / (x + y);
 }
-
-
